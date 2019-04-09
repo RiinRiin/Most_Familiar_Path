@@ -13,13 +13,10 @@ This basic skeleton is an implementation of a directed graph with 4 nodes with e
 ![Node graph](https://i.postimg.cc/1RDRLj0p/Most-Familiar-Path-Demo.png)
 
 As you can see, the shortest path without the self-loops with weights would be: A, B, C, D <br>
-However, the shortest path after consider the self-loop edges with weights using the most familiar approach is: A, C, D
+However, the shortest path after consider the self-loop edges with weights using the most familiar approach is: A, C, D<br>
 
-<br>
-Inside the python code has all the documentation line by line.
-<br>
-Please feel free to experiment with different weight values and add more number of nodes.
-<br>
+Inside the python code has all the documentation line by line. <br>
+Please feel free to experiment with different weight values and add more number of nodes. <br>
 
 To run this program, simply download this file. <br>
 Navigate to the file through the commandline. <br>
