@@ -1,12 +1,19 @@
 inf = float('inf')
+# This defines the start and end nodes for this directed graph
 start = "A"
 stop = "D"
 
+# graph is initialized as an empty dictionary
 graph = {}
 
+# Graph withe the start node points to another node with a weight
+# Node A is initialized
 graph['A'] = {}
+# Node A points to Node A (self-loop) with a weight of 0
 graph['A']['A'] = 0
+# Node A points to Node B with a weight of 1
 graph['A']['B'] = 1
+# Node A points to Node C with a weight of 3
 graph['A']['C'] = 3
 
 graph['B'] = {}
@@ -18,48 +25,8 @@ graph['C'] = {}
 graph['C']['C'] = 1
 graph['C']['D'] = 3
 
-
 graph['D'] = {}
 graph['D']['D'] = 0
-
-# graph['A'] = {}
-# graph['A']['A'] = 0
-# graph['A']['B'] = 20
-# graph['A']['F'] = 20
-# graph['A']['E'] = 20
-
-# graph['B'] = {}
-# graph['B']['B'] = 0
-# graph['B']['C'] = 25
-
-# graph['C'] = {}
-# graph['C']['C'] = 0
-# graph['C']['D'] = 10
-# graph['C']['F'] = 10
-
-# graph['D'] = {}
-# graph['D']['D'] = 0
-# graph['D']['I'] = 10
-
-# graph['E'] = {}
-# graph['E']['E'] = 20
-# graph['E']['F'] = 10
-# graph['E']['I'] = 30
-
-# graph['F'] = {}
-# graph['F']['F'] = 10
-# graph['F']['G'] = 10
-
-# graph['G'] = {}
-# graph['G']['G'] = 5
-# graph['G']['H'] = 10
-
-# graph['H'] = {}
-# graph['H']['H'] = 5
-# graph['H']['I'] = 10
-
-# graph['I'] = {}
-# graph['I']['I'] = 0
 
 
 # iterate over every node and set the cost to get to that node to infinity
