@@ -18,6 +18,7 @@ However, the shortest path after consider the self-loop edges with weights using
 <br>
 Inside the python code has all the documentation line by line.
 <br>
+Please feel free to experiment with different weight values and add more number of nodes.
 <br>
 
 To run this program, simply download this file. <br>
