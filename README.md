@@ -10,10 +10,16 @@ Read more of the proposal: [Proposal Paper](https://docs.google.com/document/d/1
 
 This basic skeleton is an implementation of a directed graph with 4 nodes with each node having a self-looping edge with a weight value.
 
-![alt text](https://imgur.com/H0yvgMO)
+![Node graph](https://i.postimg.cc/1RDRLj0p/Most-Familiar-Path-Demo.png)
 
-To run this program, simply download this file.
+As you can see, the shortest path without the self-loops with weights would be: A, B, C, D <br>
+However, the shortest path after consider the self-loop edges with weights using the most familiar approach is: A, C, D
 
-Navigate to the file through the commandline.
+<br>
+Inside the python code has all the documentation line by line.
+<br>
+<br>
 
+To run this program, simply download this file. <br>
+Navigate to the file through the commandline. <br>
 To run the program, type in the commandline: python familiar_path_playground.py
